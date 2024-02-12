@@ -1,0 +1,98 @@
+  
+<div class="div-gen">
+  <button onclick="goToBaseUrl()">Return</button>
+  <h1>New Product:</h1>
+  <form (ngSubmit)="onSubmit()" #productForm="ngForm" novalidate>
+    <label for="name">Name:</label>
+    <input
+      type="text"
+      name="name"
+      [(ngModel)]="newProduct.name"
+      required
+      minlength="4"
+      #name="ngModel"
+    />
+    <div *ngIf="name.invalid && (name.dirty || name.touched)" class="alert">
+      <div *ngIf="name.errors?.['required']">Name is required.</div>
+      <div *ngIf="name.errors?.['minlength']">
+        Name must be at least 4 characters long.
+      </div>
+    </div>
+  
+    <label for="description">Description:</label>
+    <textarea
+      name="description"
+      [(ngModel)]="newProduct.description"
+      required
+      maxlength="30"
+      #des="ngModel"
+    ></textarea>
+  
+    <div *ngIf="des.invalid && (des.dirty || des.touched)" class="alert">
+      <div *ngIf="des.errors?.['required']">Description is required.</div>
+      <div *ngIf="des.errors?.['maxlength']">
+        Description can be max 30 characters long.
+      </div>
+    </div>
+  
+    <label for="image">Image URL:</label>
+    <input
+      type="text"
+      name="image"
+      [(ngModel)]="newProduct.image"
+      required
+      minlength="1"
+      #img="ngModel"
+    />
+    <div *ngIf="img.invalid && (img.dirty || img.touched)" class="alert">
+      <div *ngIf="img.errors?.['required']">Image is required.</div>
+      <div *ngIf="img.errors?.['minlength']">
+        Image must be at least 1 characters long.
+      </div>
+    </div>
+  
+    <label for="price">Price:</label>
+    <input
+      type="number"
+      name="price"
+      [(ngModel)]="newProduct.price"
+      required
+      min="1"
+      max="1000"
+      #price="ngModel"
+    />
+    <div *ngIf="price.invalid && (price.dirty || price.touched)" class="alert">
+      <div *ngIf="price.errors?.['required']">Price is required.</div>
+      <div *ngIf="price.errors?.['min']">Price must be Bigger then 0</div>
+      <div *ngIf="price.errors?.['max']">Price must be Smaller then 1000</div>
+    </div>
+  
+    <label for="city">City:</label>
+    <input
+      type="text"
+      name="city"
+      [(ngModel)]="newProduct.city"
+      required
+      #city="ngModel"
+    />
+    <div *ngIf="city.invalid && (city.dirty || city.touched)" class="alert">
+      <div *ngIf="city.errors?.['required']">City is required.</div>
+    </div>
+  
+    <label for="phoneNumber">Phone Number:</label>
+    <input
+      type="tel"
+      name="phoneNumber"
+      [(ngModel)]="newProduct.phoneNumber"
+      required
+      #phone="ngModel"
+    />
+    <div *ngIf="phone.invalid && (phone.dirty || phone.touched)" class="alert">
+      <div *ngIf="phone.errors?.['required']">Phone Number is required.</div>
+    </div>
+  
+    <button type="submit" [disabled]="!productForm.form.valid">
+      Add Product
+    </button>
+  </form>
+</div>

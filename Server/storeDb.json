@@ -1,0 +1,105 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Vintage Leather Jacket",
+      "description": "A stylish vintage leather jacket in excellent condition.",
+      "publicationDate": "2022-06-15T00:00:00Z",
+      "image": "https://legendaryusa.com/cdn/shop/products/Z21P007A_460x@2x.jpg?v=1613062932",
+      "price": 100,
+      "city": "New York",
+      "phoneNumber": "123-456-7890"
+    },
+    {
+      "id": 2,
+      "name": "Antique Wooden Desk",
+      "description": "A beautiful antique wooden desk with intricate carvings.",
+      "publicationDate": "2022-11-01T00:00:00Z",
+      "image": "https://storage.googleapis.com/united-seats-products%2FPICTURE%2FMEDIA-MAVEN%2F1550200051-NEW.jpg",
+      "price": 250,
+      "city": "London",
+      "phoneNumber": "987-654-3210"
+    },
+    {
+      "id": 3,
+      "name": "Classic Vinyl Records",
+      "description": "A collection of classic vinyl records from various artists.",
+      "publicationDate": "2022-04-20T00:00:00Z",
+      "image": "https://www.devotedtovinyl.com/wp-content/uploads/2016/06/Bob-Marley-1024x704.jpg",
+      "price": 20,
+      "city": "Los Angeles",
+      "phoneNumber": "555-123-4567"
+    },
+    {
+      "id": 4,
+      "name": "Vintage Polaroid Camera",
+      "description": "A fully functional vintage Polaroid camera with original packaging.",
+      "publicationDate": "2022-09-10T00:00:00Z",
+      "image": "https://cdn.sanity.io/images/66aqnbcn/production/1aeb69c38814855c513010230926a901629b1651-2048x2048.png",
+      "price": 80,
+      "city": "Paris",
+      "phoneNumber": "111-222-3333"
+    },
+    {
+      "id": 5,
+      "name": "Retro Typewriter",
+      "description": "A classic retro typewriter in good working condition.",
+      "publicationDate": "2022-08-05T00:00:00Z",
+      "image": "https://previews.123rf.com/images/nsit0108/nsit01081904/nsit0108190400979/123204560-retro-typewriter-icon-realistic-illustration-of-retro-typewriter-vector-icon-for-web-design.jpg",
+      "price": 150,
+      "city": "Berlin",
+      "phoneNumber": "444-555-6666"
+    },
+    {
+      "id": 6,
+      "name": "Collectible Action Figures",
+      "description": "A set of collectible action figures from popular movies and TV shows.",
+      "publicationDate": "2022-03-12T00:00:00Z",
+      "image": "https://i.ytimg.com/vi/Iy6XC_KoEKY/mqdefault.jpg",
+      "price": 30,
+      "city": "Tokyo",
+      "phoneNumber": "999-888-7777"
+    },
+    {
+      "id": 7,
+      "name": "Vintage Rotary Telephone",
+      "description": "A vintage rotary telephone in excellent working condition.",
+      "publicationDate": "2022-05-03T00:00:00Z",
+      "image": "https://m.media-amazon.com/images/I/81hc+bLJo-L.jpg",
+      "price": 70,
+      "city": "Sydney",
+      "phoneNumber": "777-222-1111"
+    },
+    {
+      "id": 8,
+      "name": "Antique Pocket Watch",
+      "description": "An exquisite antique pocket watch with intricate details.",
+      "publicationDate": "2022-12-25T00:00:00Z",
+      "image": "https://t3.ftcdn.net/jpg/00/19/67/24/360_F_19672482_BT4QztXUKqLZpZ0vkJSjXS6fQpWnkqLm.jpg",
+      "price": 200,
+      "city": "Rome",
+      "phoneNumber": "333-999-5555"
+    },
+    {
+      "id": 9,
+      "name": "Classic Film Cameras",
+      "description": "A collection of classic film cameras for photography enthusiasts.",
+      "publicationDate": "2022-07-18T00:00:00Z",
+      "image": "https://cdn.i-scmp.com/sites/default/files/styles/square/public/d8/images/2020/06/01/film_cameras.jpg?itok=glOmoc9G",
+      "price": 90,
+      "city": "Moscow",
+      "phoneNumber": "888-777-6666"
+    },
+    {
+      "id": 10,
+      "name": "Vintage Suitcase",
+      "description": "A charming vintage suitcase for retro travel vibes.",
+      "publicationDate": "2022-09-08T00:00:00Z",
+      "image": "https://dennymfg.com/cdn/shop/products/argc2_600x.jpg?v=1680551768",
+      "price": 60,
+      "city": "Barcelona",
+      "phoneNumber": "666-111-2222"
+    }
+    
+  ]
+}

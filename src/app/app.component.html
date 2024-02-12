@@ -1,0 +1,16 @@
+<body>
+  <div id="navbar">
+    <div>
+      <button onclick="goToBaseUrl()"><img class="icon" src="https://static.vecteezy.com/system/resources/previews/000/425/085/original/house-icon-vector-illustration.jpg" alt=""></button>
+      <a href="/new">Create New Product</a>
+    </div>
+    <h1>Vintage Store.</h1>
+  </div>
+
+  <app-list></app-list>
+
+  <div class="content">
+    <router-outlet (activate)="shadowBg()"></router-outlet>
+  </div>
+  <div class="bg" *ngIf="displayShadow"></div>
+</body>

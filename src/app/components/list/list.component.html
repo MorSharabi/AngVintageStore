@@ -1,0 +1,25 @@
+<div class="div-gen">
+  <div id="navbar">
+    <div class="dropdown">
+      <button class="dropbtn">Sort</button>
+      <div class="dropdown-content">
+        <button (click)="sortData(1)">Sort By Price</button>
+        <button (click)="sortData(2)">Sort By Date</button>
+      </div>
+    </div>
+    <button class="changeBtn" (click)="switchC()">Change Currency</button>
+  </div>
+
+  <div class="div-list">
+    <ng-container *ngFor="let p of productsList">
+      <div class="prod">
+        <app-product [product]="p"></app-product>
+        <h3>
+          Price:
+          {{ switchCurrency ? (p.price | currency) : p.price + " ILS" }}
+        </h3>
+      </div>
+      <div class="line"></div>
+    </ng-container>
+  </div>
+</div>
